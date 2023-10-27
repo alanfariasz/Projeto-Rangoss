@@ -1,0 +1,316 @@
+/* Globais */
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+} 
+
+.background-gradiente {
+    background: linear-gradient(#efb312, #65480f);
+}
+    
+/* Header  */
+
+.header {
+    background-color: #000000;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.logo {
+    height: 120px;
+    margin-left: 25px;
+}
+
+.header_menu {
+    text-align: right;
+    margin-right: 25px;
+    padding-top: 35px;
+}
+
+.header_menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.header_menu .home_ativo {
+    color: #FFC337;
+}
+
+.icones {
+    color: #FFC337;
+    width: 40px;
+    height: 40px;
+    padding-left: 15px;
+}
+
+.header_menu a:hover {
+    color: #FFC337;
+}
+
+
+/* Main  */
+
+/* Sessão Carrossel */
+
+.background{
+    background-image: url(/img/david-pisnoy-RiGGe25WUw4-unsplash.jpg);
+}
+
+/* Sessão Apresentação */
+.sessao_apresentacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 700px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-right: 250px;
+    gap: 80px;
+}
+
+.imgMenu {
+    width: 300px;
+    margin: 15px;
+}
+
+.txtApresentacao{
+    max-width: 100%;
+    justify-self: left;
+    padding-right: 15px;
+    color: #fff;
+}
+.imgApresentacao {
+    display: flex;
+    justify-self: right;
+    /* max-width: 50%; */
+}
+
+.sessao_apresentacao2 {
+    position: relative;
+    /* Se a seção não possui um tamanho específico, você pode definir uma altura e largura aqui. */
+    height: 100vh;  /* por exemplo, para ocupar toda a altura da tela */
+    width: 100%;    /* para ocupar toda a largura */
+}
+
+.imgApresentacao2 img {
+    width: 100%;  /* para ocupar toda a largura da seção */
+    height: 100%; /* para ocupar toda a altura da seção */
+    object-fit: cover; /* mantém a proporção da imagem enquanto a preenche */
+}
+
+.txtFakeNetty {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;   /* centraliza verticalmente */
+    justify-content: center; /* centraliza horizontalmente */
+    font-size: 100px;
+    color: #fff;
+}
+
+/* Sessão Apresentação 3 */
+.sessao_apresentacao3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgMenu2 {
+    width: 300px;
+    margin: 15px;
+}
+
+.txtApresentacao2 {
+    margin-right: 50px;
+}
+
+.imgApresentacao3 {
+    display: flex;
+    justify-self: start; 
+}
+
+.btnSaibaMais {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btnSaibaMais:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+/* Sessão Delivery */
+
+.sessao_delivery {
+    /* background-color: #65480f; */
+    background-image: url(/img/pngwing.com\ \(4\).png);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px;
+
+}
+
+.foto_delivery{
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+.span_delivery{
+    display: block;
+    margin:45px 0 ;
+    padding-left: 120px;
+}
+
+.temos_delivery {
+    grid-column: 2;
+    padding: 150px;
+}
+
+.temos_delivery h2 {
+    color: #FFFFFF;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.peca_ja {
+    background: #f5bc21;
+    font-size: 48px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 20px 80px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+
+/* Sessão Parcerias */
+.parceiros {
+    background-color: #231F1E;
+    height: auto;
+    /* height: 720px; */
+    /* width: 1024px; */
+    width: 100%;
+    padding-top: 20px;
+}
+
+.parceoiros img {
+    display: flex;
+}
+
+.mano {
+    color: #fff;
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    
+}
+
+.logo1 {
+    width: 200px;
+    padding: 50px;
+}
+
+.logo2 {
+    width: 200px;
+    padding: 50px;
+}
+
+.logo3 {
+    width: 200px;
+    padding: 50px;
+}
+ 
+
+
+.logo4 {
+    width: 200px;
+    padding: 50px;
+}
+
+.logo5 {
+    width: 200px;
+    padding: 50px;
+}
+
+.logo6 {
+    width: 200px;
+    padding: 50px;
+}
+/* Footer */
+
+.footer {
+    background-color: #000000;
+    /* margin-bottom: 100px;
+    padding-bottom: 50px; */
+    font-size: 20px;
+}
+
+.central p{
+    font-size: 18px;
+
+}
+.central {
+    color: #FFFFFF;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#linha-vertical{
+    height: 350px;
+    border-right: 1px solid #FFFFFF;
+    margin: 30px 0 15px 0;
+
+}
+
+.bloco_3 a{
+    color: #FFFFFF;
+    text-decoration: none;
+  
+}
+
+.bloco_3 p{
+    margin: 15px 0;
+}
+
+.logo-footer{
+    padding-left: 25px;
+    height: 150px;
+}
+.bloco_1{
+     padding-left: 150px ;
+    
+}
+/* .bloco_2
+
+} */
+.bloco_3{
+    padding-right: 150px;
+}
